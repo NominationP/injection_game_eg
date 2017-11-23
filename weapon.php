@@ -15,7 +15,17 @@ class Weapon{
         
     }
 
-    public function  attack(Monster $obj,Weapon $weapon){
+
+    public function attack($monster_arr,Weapon $weapon){
+
+        foreach ($monster_arr as $key => $value) {
+            print_r($value->name." occur !!!!!\n");
+            $this->attack_action($value,$weapon);
+        }
+    }
+
+
+    public function attack_action(Monster $obj,Weapon $weapon){
 
 
         /** stom */
@@ -39,6 +49,6 @@ class Weapon{
             print_r($obj->name." remaind ".$obj->hp."\n");
         }
 
-        $this->attack($obj,$weapon);
+        $this->attack_action($obj,$weapon);
     }
 }

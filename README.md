@@ -5,7 +5,7 @@
 [依赖注入那些事儿](https://www.cnblogs.com/leoo2sk/archive/2009/06/17/1504693.html)
 
 
-##v1.0
+## v1.0
 - class : monter,weapon,role
 ```
 木剑 attack 20
@@ -20,4 +20,5 @@ boss is Dead !
 
 - plan : 
 > monster array -[x]
+> 
 > attack in weapon class->function attack by recursive

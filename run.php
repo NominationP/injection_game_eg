@@ -4,6 +4,7 @@ require_once 'role.php';
 require_once 'weapon.php';
 require_once 'woodenSword.php';
 require_once 'magicSword.php';
+require_once 'attackTarget.php';
 require_once 'monster.php';
 
 $wooden = new WoodenSword;

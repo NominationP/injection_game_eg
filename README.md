@@ -22,3 +22,12 @@ boss is Dead !
 > monster array -[x]
 > 
 > attack in weapon class->function attack by recursive
+
+## v2.0
+
+- Tip：OCP原则，即开放关闭原则，指设计应该对扩展开放，对修改关闭。
+- Tip：策略模式，英文名Strategy Pattern，指定义算法族，分别封装起来，让他们之间可以相互替换，此模式使得算法的变化独立于客户。
+
+- hp change && die ... something is duty for monster class rather than weapon 
+- add attackTarget.php and each weapon class, but this not goods readable rather than v1.0
+- no to study deep in this . Go on to v3.0

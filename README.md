@@ -3,7 +3,8 @@
 # PHP 依赖注入 类 写个例子研究一下
 
 [依赖注入那些事儿](https://www.cnblogs.com/leoo2sk/archive/2009/06/17/1504693.html)
-重点理解 [laravel 学习笔记 —— 神奇的服务容器](https://www.insp.top/article/learn-laravel-container)
+
+`重点理解` [laravel 学习笔记 —— 神奇的服务容器](https://www.insp.top/article/learn-laravel-container)
 > 所有代码在superman.php文件中,读完文章很好理解,但对于PHP的实现方式,方法还不能理解 
 
 
